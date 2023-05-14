@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agregar Libro</title>
+</head>
+<body>
+  <h1>Agregar Libro</h1>
+  <form name="formulario" method="post" action="../php/agregar_libro.php">
+    <table>
+      <tbody>
+
+        <tr>
+          <td>Titulo</td>
+          <td>
+            <input type="text" name="titulo" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Nombre del Autor</td>
+          <td>
+            <input type="text" name="nombres" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Apellido Paterno del Autor</td>
+          <td>
+            <input type="text" name="ape_paterno" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Apellido Materno del Autor</td>
+          <td>
+            <input type="text" name="ape_materno" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Año</td>
+          <td>
+            <input type="text" name="anio" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Especialidad</td>
+          <td>
+            <input type="text" name="especialidad">
+          </td>
+        </tr>
+        
+
+        <tr>
+          <td>Editorial</td>
+          <td>
+            <input type="text" name="editorial">
+          </td>
+        </tr>
+
+        <tr>
+          <td>URL</td>
+          <td>
+            <input type="text" name="url">
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <button type="submit">Guardar</button>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </form> 
+</body>
+</html>
